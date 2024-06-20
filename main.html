@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Video Player</title>
+</head>
+
+<body>
+    <h1>Custom Video Player</h1>
+
+    <div id="video-container">
+        <video id="video-player" controls>
+            <source src="your-video-source.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="overlay" class="overlay"></div>
+        <div id="top-right-popup" class="top-right"></div> 
+    </div>
+    <br><br><br>
+    <div id="points-section">
+        Points: <span id="points">0</span>
+    </div>
+
+    <!-- <div id="video-call-container">
+        <video id="localVideo" autoplay muted></video>
+        <video id="remoteVideo" autoplay></video>
+        <button id="startCall">Start Call</button>
+        <button id="shareScreen">Share Screen</button>
+        <button id="recordSession">Record Session</button>
+        <button id="stopRecording">Stop Recording</button>
+    </div> -->
+
+    <div id="comments-section"> 
+        <h2>Comments</h2>
+        <p>This is the comments section.</p>
+    </div>
+
+    <script src="java.js"></script>
+    
+</body>
+</html>
